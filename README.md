@@ -6,9 +6,10 @@
 DBEntityMocker, because sometime it's boring to prepare large data for unit tests, i have develop a litle software that extract data from a existing database with a specifiq SQL request and generate code to hydrate mock object in C#.
 
 # Getting Started
+- Don't work currently for .NET core.
 - Open app.config and set connection string to the database source.
 ```xml <connectionStrings>
-      <add name="DeffaultConnection" connectionString="..." />
+      <add name="DefaultConnection" connectionString="..." />
 </connectionStrings>
 ```
 - Open a .NET dll where a DBContext derived class is implemented. Often it's where is located the .edmx file.
