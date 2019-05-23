@@ -2,7 +2,9 @@
 [![pipeline status](https://gitlab.com/AzRunRCE/eni-java-project-bid/badges/dev/pipeline.svg)](https://gitlab.com/AzRunRCE/eni-java-project-bid/commits/dev)
 [![coverage report](https://gitlab.com/AzRunRCE/eni-java-project-bid/badges/dev/coverage.svg)](https://gitlab.com/AzRunRCE/eni-java-project-bid/commits/dev)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/your/your-project/blob/master/LICENSE)
-
+<p align="center">
+  <img src="/screenshot.gif">
+</p>
 DBEntityMocker, because sometime it's boring to prepare large data for unit tests, i have develop a litle software that extract data from a existing database with a specifiq SQL request and generate code to hydrate mock object in C#.
 
 # Getting Started
